@@ -1,0 +1,178 @@
+/* general styles */
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+  
+h1,h2,h3,h4,h5,h6,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header styles */
+.mn-con{
+    min-height: calc(100vh - 10em);
+}
+header, #card-icon{
+    color: var(--blue);
+}
+header{
+    width:100%;
+    text-align: center;
+    margin-top: 2em;
+}
+header h1,header p{
+    margin: 0px;
+}
+
+header p{
+    margin-bottom:30px ;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-section div{
+    width: 30%;
+    height: 60px ;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    width: 90%;
+    height: 90%;
+    
+}
+
+#logo-card{
+    background-color: #e0dfdf;
+    display: none;
+}
+
+
+
+/* ------------Biling info styles--------- */
+input::placeholder,input,select,h2{
+    color: var(--blue);
+}
+
+input{
+    padding-left:10px;
+    
+}
+
+.billing-info, .credit-card-info{
+    margin: 30px 32px ;
+}
+
+.div-one-input,.div-two-input{
+    margin-bottom: 25px;
+}
+.input-full{
+    width: calc(100% - 15px);
+    margin-top: 0px;
+    height: 30px;
+    border: 1px solid var(--blue);
+    
+    
+}
+
+.div-two-input{
+    display: flex;
+    width: 100%;
+}
+.div-one-input p, .div-two-input p{
+    margin: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+
+.input-half{
+    height: 30px;
+    border: 1px solid var(--blue);
+    padding-left: 15px;
+    width: calc(100% - 17px);
+}
+
+#input-right{
+    margin-right:5% ;
+    width: 50%;
+}
+#input-left{
+    margin-left: 5%;
+    width: 50%;
+}
+
+#countries, #expiring-date{
+    width: 100%;
+    padding-left: 15px;
+    height: 40px;
+}
+
+.btn-primary{
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #1e90ff;
+    font-size: large;
+}
+
+/* footer styles */
+footer{
+    background-color: var(--blue);
+    color: white;
+    height: 6em;
+    margin: 0px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(13, 13, 15);
+}
+footer a:hover {
+    color: antiquewhite;
+    font-size: larger;
+}
+/* ######################################### */
+ @media only screen and (min-width:700px){
+    .logo-section{
+        display: flex;
+        width: 56vw;
+        justify-content:  space-between;
+        border: 2px solid var(--blue);
+        margin: auto;
+        
+    }
+    #logo-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-container{
+        display:  flex;
+        justify-content: center;
+    }
+
+    .credit-card-info{
+        width: 25%;
+    }
+
+    .billing-info{
+        width: 25%;
+    }
+
+} 

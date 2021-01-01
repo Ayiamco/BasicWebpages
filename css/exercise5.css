@@ -1,0 +1,88 @@
+@media only screen and (max-width: 499px) {
+  .grid-container-5 {
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+  }
+  .container5-item-1,
+  .container5-item-22 {
+    height: 7vh;
+  }
+  .container5-item-3 {
+    height: 33vh;
+  }
+  .container5-item-4,
+  .container5-item-5,
+  .container5-item-6 {
+    height: 12vh;
+  }
+
+  .container5-item-7 {
+    height: 14vh;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .grid-container-5 {
+    display: grid;
+    height: 95vh;
+    justify-content: center;
+    grid-template-columns: [col1]24% [col2]24% [col3] 24% [col4] 24% [colend];
+    grid-template-rows: [row1] 10% [row2] 10% [row3] 10% [row4]10% [row5]10% [row6]10% [row7]10% [row8]10% [row9]10% [row10]5% [rowend];
+    grid-template-areas:
+      "hd hd hd hd"
+      "asid bd bd bd"
+      "asid bd bd bd"
+      "asid bd bd bd"
+      "asid bd bd bd"
+      "asid sec sec2 sec3"
+      "asid sec sec2 sec3"
+      "asid sec sec2 sec3"
+      "asid ft ft ft"
+      "asid ft ft ft";
+    grid-gap: 1px;
+  }
+  .container5-item-1 {
+    grid-area: hd;
+  }
+  .container5-item-22 {
+    grid-area: asid;
+  }
+  .container5-item-3 {
+    grid-area: bd;
+  }
+  .container5-item-4 {
+    grid-area: sec;
+  }
+  .container5-item-5 {
+    grid-area: sec2;
+  }
+  .container5-item-6 {
+    grid-area: sec3;
+  }
+  .container5-item-7 {
+    grid-area: ft;
+  }
+}
+
+.container5-item-22,
+.container5-item-7 {
+  background-color: rgb(81, 237, 81);
+}
+
+.container5-item-3,
+.container5-item-5 {
+  background-color: rgb(171, 240, 171);
+}
+.container5-item-4,
+.container5-item-6,
+.container5-item-1 {
+  background-color: rgb(229, 242, 229);
+}
+
+.grid-item-container5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,91 @@
+/*----------------Exercise two style-------------------*/
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 25% 24% 24% 25%;
+  grid-template-rows: 33% 33.3% 33%;
+  margin: auto;
+  text-align: center;
+  grid-template-areas:
+    "hd hd hd hd"
+    "mn mn empty sb"
+    "ft ft ft ft";
+  height: 40vh;
+  width: 92%;
+  grid-gap: 1.5px;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 6px;
+  padding-bottom: 2.5px;
+}
+
+.container2-empty {
+  grid-area: empty;
+  margin: 0px;
+  border: 0px;
+}
+
+.container2-sb {
+  grid-area: sb;
+  border: 8px outset rgb(197, 96, 96);
+  -webkit-box-shadow: 5px 5px 15px rgb(197, 96, 96);
+  -moz-box-shadow: 5px 5px 15pxrgb (104, 102, 206);
+  border-radius: 6px;
+  padding: 0px;
+  background-color: rgb(197, 96, 96);
+  margin: 0px;
+}
+
+.container2-ft {
+  grid-area: ft;
+  background-color: rgb(76, 170, 147);
+  border: 8px outset rgb(76, 170, 147);
+  -webkit-box-shadow: 5px 5px 15px rgb(76, 170, 147);
+  -moz-box-shadow: 5px 5px 15pxrgb (104, 102, 206);
+  border-radius: 6px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.container2-hd {
+  grid-area: hd;
+  background-color: orange;
+  border: 8px outset rgb(233, 163, 32);
+  box-shadow: 5px 5px 15px orange;
+  -webkit-box-shadow: 5px 5px 15px orange;
+  -moz-box-shadow: 5px 5px 15px orange;
+  border-radius: 6px;
+}
+
+.container2-mn {
+  grid-area: mn;
+  background-color: rgb(50, 167, 221);
+  border: 8px outset rgb(50, 167, 221);
+  -webkit-box-shadow: 5px 5px 15px rgb(50, 167, 221);
+  -moz-box-shadow: 5px 5px 15pxrgb (104, 102, 206);
+  border-radius: 6px;
+}
+.grid-container2-mock-item {
+  grid-gap: 0px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.grid-container2-mock {
+  margin-top: -40vh;
+}
+.grid-container2-bottom {
+  border-bottom: 2px solid black;
+}
+.grid-container2-edge {
+  border-left: 2px solid black;
+}
+/*-------------- End of exercise two- -------------*/

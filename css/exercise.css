@@ -1,0 +1,73 @@
+@media (max-width: 499px) and (min-width: 400px) {
+  #mn-con {
+    padding: 0px 2em;
+  }
+}
+@media (max-width: 599px) and (min-width: 500px) {
+  #mn-con {
+    padding: 0px 4em;
+  }
+}
+@media (max-width: 699px) and (min-width: 600px) {
+  #mn-con {
+    padding: 0px 6em;
+  }
+}
+@media (max-width: 799px) and (min-width: 700px) {
+  #mn-con {
+    padding: 0px 9em;
+  }
+}
+@media (max-width: 899px) and (min-width: 800px) {
+  #mn-con {
+    padding: 0px 13em;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 900px) {
+  #mn-con {
+    padding: 0px 18em;
+  }
+}
+@media (max-width: 1099px) and (min-width: 1000px) {
+  #mn-con {
+    padding: 0px 20em;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 1100px) {
+  #mn-con {
+    padding: 0px 23em;
+  }
+}
+@media (max-width: 1299px) and (min-width: 1200px) {
+  #mn-con {
+    padding: 0px 28em;
+  }
+}
+
+@media (max-width: 1399px) and (min-width: 1300px) {
+  #mn-con {
+    padding: 0px 31em;
+  }
+}
+@media (max-width: 1499px) and (min-width: 1400px) {
+  #mn-con {
+    padding: 0px 31em;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .grid-container1,
+  .grid-container2,
+  .container3,
+  .grid-container4,
+  .grid-container-5 {
+    width: 30vw;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

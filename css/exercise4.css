@@ -1,0 +1,53 @@
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4% 4%;
+  grid-template-rows: 26.6% 26.6% 26.6%;
+  height: 50vw;
+  width: 90%;
+  margin: auto;
+  grid-template-areas:
+    " bx1 bx1 bx1 bx1 bx2 bx2 bx2 bx2 bx2 bx3 bx3 bx3 bx4 bx4 bx4  bx5 bx5 bx5 bx5 bx6"
+    " bx7 bx7 bx7 bx7 bx8 bx8 bx8 bx8 bx8 bx8 bx8 bx8 bx4 bx4 bx4  bx5 bx5 bx5 bx5 bx6"
+    " bx7 bx7 bx7 bx7 bx8 bx8 bx8 bx8 bx8 bx8 bx8 bx8 bx4 bx4 bx4  bx5 bx5 bx5 bx5 bx6";
+  justify-content: center;
+  grid-gap: 0.5vw;
+  background-color: rgb(218, 208, 208);
+  border: 0px;
+  align-content: center;
+}
+.grid-item-container4 {
+  border: 0px;
+}
+
+.bx1 {
+  grid-area: bx1;
+  background-color: rgb(228, 31, 31);
+}
+.bx2 {
+  grid-area: bx2;
+  background-color: rgb(32, 185, 185);
+}
+.bx3 {
+  grid-area: bx3;
+  background-color: rgb(8, 85, 18);
+}
+.bx4 {
+  grid-area: bx4;
+  background-color: rgb(155, 155, 240);
+}
+.bx5 {
+  grid-area: bx5;
+  background-color: rgb(24, 24, 197);
+}
+.bx6 {
+  grid-area: bx6;
+  background-color: rgb(162, 223, 223);
+}
+.bx7 {
+  grid-area: bx7;
+  background-color: orangered;
+}
+.bx8 {
+  grid-area: bx8;
+  background-color: rgb(233, 147, 115);
+}
